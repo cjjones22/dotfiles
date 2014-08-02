@@ -29,7 +29,7 @@
 set nocompatible " Fuck VI... That's for grandpas.
 filetype off
 
-set rtp+=~/.vim/bundle/Vundle.vim/
+set rtp+=~/.vim/dotfiles/bundle/Vundle.vim
 call vundle#begin()
 
 " Vundle let's you specify a plugin in a number of formats, but my favorite
