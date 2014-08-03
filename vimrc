@@ -29,7 +29,7 @@
 set nocompatible " Fuck VI... That's for grandpas.
 filetype off
 
-set rtp+=~/.vim/dotfiles/bundle/Vundle.vim
+set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 " Vundle let's you specify a plugin in a number of formats, but my favorite
@@ -46,6 +46,7 @@ Bundle 'bling/vim-airline'
 Bundle 'kien/ctrlp.vim'
 Bundle 'tpope/vim-commentary'
 Bundle 'mattn/emmet-vim'
+Bundle 'tpope/vim-fugitive'
 
 call vundle#end()
 filetype plugin indent on
@@ -162,3 +163,5 @@ noremap <Up> <NOP>
 noremap <Down> <NOP>
 noremap <Left> <NOP>
 noremap <Right> <NOP>
+
+set shell=/bin/zsh
